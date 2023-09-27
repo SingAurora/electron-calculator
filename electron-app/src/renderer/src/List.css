@@ -1,0 +1,13 @@
+/*太复杂的样式写在这里*/
+.content {
+    box-shadow: -8px -8px 16px -10px rgba(255, 255, 255, 1), 8px 8px 16px -10px rgba(0, 0, 0, .15);
+}
+
+.btn-cont button {
+    background: linear-gradient(135deg, rgb(241, 241, 241) 0%, rgb(255, 255, 255) 100%);
+    box-shadow: -4px -4px 10px -8px rgb(189, 189, 189), 4px 4px 10px -8px rgba(0, 0, 0, .3);
+}
+
+.btn-cont button:active {
+    box-shadow: -4px -4px 10px -8px rgba(255, 255, 255, 1) inset, 4px 4px 10px -8px rgba(0, 0, 0, .3) inset;
+}
